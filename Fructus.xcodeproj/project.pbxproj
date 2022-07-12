@@ -17,6 +17,7 @@
 		695B44FA287D69F400231694 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B44F9287D69F400231694 /* OnboardingView.swift */; };
 		695B44FD287D737E00231694 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B44FC287D737E00231694 /* FruitModel.swift */; };
 		695B4500287D74A900231694 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B44FF287D74A900231694 /* FruitData.swift */; };
+		695B4503287D760700231694 /* FruitCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B4502287D760700231694 /* FruitCardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		695B44F9287D69F400231694 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		695B44FC287D737E00231694 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		695B44FF287D74A900231694 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		695B4502287D760700231694 /* FruitCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		695B44F2287D616D00231694 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				695B4501287D75C600231694 /* ViewModel */,
 				695B44F3287D617600231694 /* View */,
 			);
 			path = Onboarding;
@@ -147,6 +150,14 @@
 				695B44FF287D74A900231694 /* FruitData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		695B4501287D75C600231694 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				695B4502287D760700231694 /* FruitCardViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +234,7 @@
 				695B4500287D74A900231694 /* FruitData.swift in Sources */,
 				695B44F5287D618A00231694 /* FruitCardView.swift in Sources */,
 				695B44F7287D662000231694 /* StartButtonView.swift in Sources */,
+				695B4503287D760700231694 /* FruitCardViewModel.swift in Sources */,
 				695B44E0287D56A000231694 /* HomeView.swift in Sources */,
 				695B44FA287D69F400231694 /* OnboardingView.swift in Sources */,
 				695B44FD287D737E00231694 /* FruitModel.swift in Sources */,

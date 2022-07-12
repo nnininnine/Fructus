@@ -14,8 +14,8 @@ struct OnboardingView: View {
 
   var body: some View {
     TabView {
-      ForEach(0 ..< 5) { _ in
-        FruitCardView()
+      ForEach(fruitsData) { fruit in
+        FruitCardView(fruit: fruit)
           .padding(.horizontal)
       } //: ForEach
     } //: TabView
