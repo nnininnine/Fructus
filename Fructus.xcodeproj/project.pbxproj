@@ -13,6 +13,7 @@
 		695B44E5287D56A200231694 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695B44E4287D56A200231694 /* Preview Assets.xcassets */; };
 		695B44ED287D579900231694 /* FruitsData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 695B44EC287D579900231694 /* FruitsData.txt */; };
 		695B44F5287D618A00231694 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B44F4287D618A00231694 /* FruitCardView.swift */; };
+		695B44F7287D662000231694 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B44F6287D662000231694 /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		695B44E4287D56A200231694 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		695B44EC287D579900231694 /* FruitsData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FruitsData.txt; sourceTree = "<group>"; };
 		695B44F4287D618A00231694 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		695B44F6287D662000231694 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				695B44F4287D618A00231694 /* FruitCardView.swift */,
+				695B44F6287D662000231694 /* StartButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				695B44F5287D618A00231694 /* FruitCardView.swift in Sources */,
+				695B44F7287D662000231694 /* StartButtonView.swift in Sources */,
 				695B44E0287D56A000231694 /* HomeView.swift in Sources */,
 				695B44DE287D56A000231694 /* FructusApp.swift in Sources */,
 			);
