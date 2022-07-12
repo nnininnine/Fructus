@@ -10,6 +10,7 @@ import SwiftUI
 class FruitCardViewModel: ObservableObject {
   @Published var fruit: Fruit
   @Published var isAnimating: Bool = false
+  @AppStorage("isOnboarding") private var isOnboarding: Bool?
 
   init(fruit: Fruit) {
     self.fruit = fruit
@@ -23,5 +24,6 @@ class FruitCardViewModel: ObservableObject {
 
   func startButtonAction() {
     print("tap start with: \(fruit.title)")
+    isOnboarding = false
   }
 }
