@@ -10,11 +10,13 @@ import SwiftUI
 struct OnboardingView: View {
   // MARK: Properties
 
+  @StateObject private var vm: OnboardingViewModel = .init()
+
   // MARK: Body
 
   var body: some View {
     TabView {
-      ForEach(fruitsData) { fruit in
+      ForEach(vm.fruits[0 ..< 5]) { fruit in
         FruitCardView(fruit: fruit)
           .padding(.horizontal)
       } //: ForEach
