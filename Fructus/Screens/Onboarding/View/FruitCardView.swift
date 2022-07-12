@@ -31,6 +31,7 @@ struct FruitCardView: View {
         .frame(maxWidth: 480)
 
       // Start button
+      StartButtonView(action: {})
 
       Spacer()
     } //: VStack
