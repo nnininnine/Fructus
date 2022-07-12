@@ -11,6 +11,7 @@
 		695B44E0287D56A000231694 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B44DF287D56A000231694 /* ContentView.swift */; };
 		695B44E2287D56A200231694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695B44E1287D56A200231694 /* Assets.xcassets */; };
 		695B44E5287D56A200231694 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695B44E4287D56A200231694 /* Preview Assets.xcassets */; };
+		695B44ED287D579900231694 /* FruitsData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 695B44EC287D579900231694 /* FruitsData.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		695B44DF287D56A000231694 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		695B44E1287D56A200231694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		695B44E4287D56A200231694 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		695B44EC287D579900231694 /* FruitsData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FruitsData.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		695B44DC287D56A000231694 /* Fructus */ = {
 			isa = PBXGroup;
 			children = (
+				695B44EB287D578D00231694 /* Resources */,
 				695B44DD287D56A000231694 /* FructusApp.swift */,
 				695B44DF287D56A000231694 /* ContentView.swift */,
 				695B44E1287D56A200231694 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				695B44E4287D56A200231694 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		695B44EB287D578D00231694 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				695B44EC287D579900231694 /* FruitsData.txt */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				695B44E5287D56A200231694 /* Preview Assets.xcassets in Resources */,
 				695B44E2287D56A200231694 /* Assets.xcassets in Resources */,
+				695B44ED287D579900231694 /* FruitsData.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
