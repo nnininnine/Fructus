@@ -10,7 +10,15 @@ import SwiftUI
 class HomeViewModel: ObservableObject {
   // MARK: - Properties
 
+  var fruits: Fruits = fruitsData
+
   // MARK: - Init
+
+  init() {}
+
+  init(fruits: Fruits) {
+    self.fruits = fruits
+  }
 
   // MARK: - Methods
 }

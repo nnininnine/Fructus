@@ -10,14 +10,14 @@ import SwiftUI
 struct HomeView: View {
   // MARK: - Properties
 
-  var fruits: Fruits = fruitsData
+  @StateObject var vm: HomeViewModel = .init()
 
   // MARK: - Body
 
   var body: some View {
     NavigationView {
       List {
-        ForEach(fruits.shuffled()) { item in
+        ForEach(vm.fruits.shuffled()) { item in
           FruitRowView(fruit: item)
             .padding(.vertical, 8)
         }
@@ -30,6 +30,6 @@ struct HomeView: View {
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    HomeView(fruits: fruitsData)
+    HomeView(vm: .init(fruits: fruitsData))
   }
 }
