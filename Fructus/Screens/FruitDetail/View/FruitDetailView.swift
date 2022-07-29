@@ -48,6 +48,7 @@ struct FruitDetailView: View {
         .frame(maxWidth: 640, alignment: .center)
       } //: VStack
     } //: ScrollView
+    .edgesIgnoringSafeArea(.top)
     .navigationBarTitle(fruit.title, displayMode: .inline)
   }
 }
