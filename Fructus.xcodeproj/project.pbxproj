@@ -107,6 +107,7 @@
 		695B44EF287D60FD00231694 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				699B1FBF28939BEA00D9E72E /* FruitDetail */,
 				695B44F2287D616D00231694 /* Onboarding */,
 				695B44F0287D610400231694 /* Home */,
 			);
@@ -116,8 +117,7 @@
 		695B44F0287D610400231694 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				695B44DF287D56A000231694 /* HomeView.swift */,
-				699B1FBD289397C800D9E72E /* FruitRowView.swift */,
+				699B1FC028939BF600D9E72E /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -164,6 +164,22 @@
 				695B4505287D7C0800231694 /* OnboardingViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		699B1FBF28939BEA00D9E72E /* FruitDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FruitDetail;
+			sourceTree = "<group>";
+		};
+		699B1FC028939BF600D9E72E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				695B44DF287D56A000231694 /* HomeView.swift */,
+				699B1FBD289397C800D9E72E /* FruitRowView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
