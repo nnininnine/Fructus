@@ -19,6 +19,7 @@
 		695B4500287D74A900231694 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B44FF287D74A900231694 /* FruitData.swift */; };
 		695B4503287D760700231694 /* FruitCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B4502287D760700231694 /* FruitCardViewModel.swift */; };
 		695B4506287D7C0800231694 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B4505287D7C0800231694 /* OnboardingViewModel.swift */; };
+		699B1FBE289397C800D9E72E /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699B1FBD289397C800D9E72E /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		695B44FF287D74A900231694 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		695B4502287D760700231694 /* FruitCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardViewModel.swift; sourceTree = "<group>"; };
 		695B4505287D7C0800231694 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		699B1FBD289397C800D9E72E /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				695B44DF287D56A000231694 /* HomeView.swift */,
+				699B1FBD289397C800D9E72E /* FruitRowView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699B1FBE289397C800D9E72E /* FruitRowView.swift in Sources */,
 				695B4500287D74A900231694 /* FruitData.swift in Sources */,
 				695B44F5287D618A00231694 /* FruitCardView.swift in Sources */,
 				695B44F7287D662000231694 /* StartButtonView.swift in Sources */,
