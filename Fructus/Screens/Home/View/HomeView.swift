@@ -18,8 +18,10 @@ struct HomeView: View {
     NavigationView {
       List {
         ForEach(vm.fruits.shuffled()) { item in
-          FruitRowView(fruit: item)
-            .padding(.vertical, 8)
+          NavigationLink(destination: FruitDetailView(fruit: item)) {
+            FruitRowView(fruit: item)
+              .padding(.vertical, 8)
+          }
         }
       } //: List
       .listStyle(.inset)
