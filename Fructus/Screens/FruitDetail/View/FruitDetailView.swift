@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct FruitDetailView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+  // MARK: - Properties
+
+  var fruit: Fruit
+
+  // MARK: - Body
+
+  var body: some View {
+    Text(fruit.title)
+  }
 }
 
 struct FruitDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        FruitDetailView()
-    }
+  static var previews: some View {
+    FruitDetailView(fruit: fruitsData[0])
+  }
 }
