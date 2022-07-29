@@ -15,39 +15,40 @@ struct FruitDetailView: View {
   // MARK: - Body
 
   var body: some View {
-    NavigationView {
-      ScrollView(.vertical, showsIndicators: false) {
-        VStack(alignment: .center, spacing: 20) {
-          // Header
-          VStack(alignment: .leading, spacing: 20) {
-            // Title
-            Text(fruit.title)
-              .font(.largeTitle)
-              .fontWeight(.heavy)
-              .foregroundColor(fruit.gradientColors[1])
+    ScrollView(.vertical, showsIndicators: false) {
+      VStack(alignment: .center, spacing: 20) {
+        // Header
+        FruitHeaderView(fruit: fruit)
 
-            // Headline
-            Text(fruit.headline)
-              .font(.headline)
-              .multilineTextAlignment(.leading)
+        VStack(alignment: .leading, spacing: 20) {
+          // Title
+          Text(fruit.title)
+            .font(.largeTitle)
+            .fontWeight(.heavy)
+            .foregroundColor(fruit.gradientColors[1])
 
-            // Nutrients
+          // Headline
+          Text(fruit.headline)
+            .font(.headline)
+            .multilineTextAlignment(.leading)
 
-            // SubHeadline
-            Text("Learn more about \(fruit.title)".uppercased())
-              .bold()
-              .foregroundColor(fruit.gradientColors[1])
+          // Nutrients
 
-            // Description
-            Text(fruit.description)
-              .multilineTextAlignment(.leading)
-            // Link
-          } //: VStack
-          .padding(.horizontal, 20)
-          .frame(maxWidth: 640, alignment: .center)
+          // SubHeadline
+          Text("Learn more about \(fruit.title)".uppercased())
+            .bold()
+            .foregroundColor(fruit.gradientColors[1])
+
+          // Description
+          Text(fruit.description)
+            .multilineTextAlignment(.leading)
+          // Link
         } //: VStack
-      } //: ScrollView
-    } //: NavigationView
+        .padding(.horizontal, 20)
+        .frame(maxWidth: 640, alignment: .center)
+      } //: VStack
+    } //: ScrollView
+    .navigationBarTitle(fruit.title, displayMode: .inline)
   }
 }
 
