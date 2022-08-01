@@ -10,6 +10,7 @@ import SwiftUI
 class HomeViewModel: ObservableObject {
   // MARK: - Properties
 
+  @Published var isShowingSettings: Bool = false
   var fruits: Fruits = fruitsData
 
   // MARK: - Init
@@ -21,4 +22,8 @@ class HomeViewModel: ObservableObject {
   }
 
   // MARK: - Methods
+
+  func showSettings() {
+    isShowingSettings = true
+  }
 }

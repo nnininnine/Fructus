@@ -26,7 +26,14 @@ struct HomeView: View {
       } //: List
       .listStyle(.inset)
       .navigationTitle("Fruits")
+      .toolbar {
+        Button(action: vm.showSettings, label: {
+          Image(systemName: "slider.horizontal.3")
+            .font(.body.bold())
+        })
+      }
     } //: NavigationView
+    .sheet(isPresented: $vm.isShowingSettings, content: { SettingsView() })
   }
 }
 
