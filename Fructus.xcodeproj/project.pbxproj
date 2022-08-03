@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6934C744289A4C4F0013DCAB /* SettingsTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6934C743289A4C4F0013DCAB /* SettingsTitleView.swift */; };
 		695B44DE287D56A000231694 /* FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B44DD287D56A000231694 /* FructusApp.swift */; };
 		695B44E0287D56A000231694 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B44DF287D56A000231694 /* HomeView.swift */; };
 		695B44E2287D56A200231694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695B44E1287D56A200231694 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6934C743289A4C4F0013DCAB /* SettingsTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTitleView.swift; sourceTree = "<group>"; };
 		695B44DA287D56A000231694 /* Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		695B44DD287D56A000231694 /* FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusApp.swift; sourceTree = "<group>"; };
 		695B44DF287D56A000231694 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				699B1FEF2897BEE900D9E72E /* SettingsView.swift */,
+				6934C743289A4C4F0013DCAB /* SettingsTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				699B1FC62893A21500D9E72E /* FruitDetailView.swift in Sources */,
 				699B1FC82893DD5000D9E72E /* FruitHeaderView.swift in Sources */,
 				699B1FCC289780BA00D9E72E /* FruitNutrientsView.swift in Sources */,
+				6934C744289A4C4F0013DCAB /* SettingsTitleView.swift in Sources */,
 				695B44F7287D662000231694 /* StartButtonView.swift in Sources */,
 				699B1FF02897BEE900D9E72E /* SettingsView.swift in Sources */,
 				695B4503287D760700231694 /* FruitCardViewModel.swift in Sources */,
