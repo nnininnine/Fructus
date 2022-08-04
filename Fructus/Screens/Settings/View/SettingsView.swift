@@ -23,14 +23,14 @@ struct SettingsView: View {
           GroupBox(content: {
             Divider()
               .padding(.vertical, 4)
-            
+
             HStack(spacing: 10) {
               Image("logo")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 80, height: 80)
                 .cornerRadius(9)
-              
+
               Text("Most fruits are naturally low in fat, sodium, and calories. None have cholesterol. Fruits are sources of many essential nutrients, including potassium, dietary fiber, vitamins, and much more.")
                 .font(.footnote)
             }
@@ -40,8 +40,19 @@ struct SettingsView: View {
 
           // MARK: - Section 2
 
-          // MARK: - Section 3
+          GroupBox(content: {
+            SettingsRowView(name: "Developer", content: "John / Jane")
+            SettingsRowView(name: "Designer", content: "Robert Petras")
+            SettingsRowView(name: "Compatibility", content: "up to iOS 14")
+            SettingsRowView(name: "Website", linkLabel: "SwiftUI Masterclass", linkDestination: "swiftuimasterclass.com")
+            SettingsRowView(name: "Twitter", linkLabel: "@RobertPetras", linkDestination: "twitter.com/robertpetras")
+            SettingsRowView(name: "SwiftUI", content: "2.0")
+            SettingsRowView(name: "Version", content: "1.1.0")
+          }, label: {
+            SettingsTitleView(title: "Application", sfImage: "apps.iphone")
+          })
 
+          // MARK: - Section 3
         } //: VStack
         .navigationTitle("Settings")
         .navigationBarTitleDisplayMode(.large)
