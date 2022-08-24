@@ -33,6 +33,7 @@ struct HomeView: View {
         })
       }
     } //: NavigationView
+    .navigationViewStyle(.columns)
     .sheet(isPresented: $vm.isShowingSettings, content: { SettingsView() })
   }
 }

@@ -11,6 +11,7 @@ struct SettingsView: View {
   // MARK: - Properties
 
   @Environment(\.presentationMode) var presentationMode
+  @AppStorage("isOnboarding") var isOnboarding: Bool = false
 
   // MARK: - Body
 
@@ -50,6 +51,11 @@ struct SettingsView: View {
               .layoutPriority(1)
               .font(.footnote)
               .multilineTextAlignment(.leading)
+
+            Toggle("Restart".uppercased(), isOn: $isOnboarding)
+              .padding()
+              .background(Color(uiColor: .tertiarySystemBackground)
+                .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous)))
           }, label: {
             SettingsTitleView(title: "Customization", sfImage: "paintbrush")
           })
